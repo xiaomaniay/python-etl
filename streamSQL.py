@@ -8,19 +8,14 @@ import os
 import subprocess
 
 # importing file which sets env variable
-# subprocess.call(".\settings.sh", shell=True)
+subprocess.call(".\settings.sh", shell=True)
 
-# consumer_key = os.environ['CONSUMER_KEY']
-# consumer_secret = os.environ['CONSUMER_SECRET']
-# access_token = os.environ['ACCESS_TOKEN']
-# access_token_secret = os.environ['ACCESS_TOKEN_SECRET']
-# password = os.environ['PASSWORD']
+consumer_key = os.environ['CONSUMER_KEY']
+consumer_secret = os.environ['CONSUMER_SECRET']
+access_token = os.environ['ACCESS_TOKEN']
+access_token_secret = os.environ['ACCESS_TOKEN_SECRET']
+password = os.environ['PASSWORD']
 
-consumer_key = "zyo8uronEbWuE3fEpiBlP10ZM"
-consumer_secret = "X4VZgaYkqMYU2HFchBoDCvyHPHywc3SqpCbtDGyUeYICZioggV"
-access_token = "2797213650-00l5b8uKHcQnN5ETieabGxUsyvN2afPAOxETejM"
-access_token_secret = "kwQt2CNpwyELoMTLU9mNivoNbNtb8PGDuXB9ubSRzhCRp"
-password = "MyNewPass"
 
 
 def connect(username, created_at, tweet, retweet_count, place, location):
