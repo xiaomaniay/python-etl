@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-export CONSUMER_KEY="zyo8uronEbWuE3fEpiBlP10ZM"
-export CONSUMER_SECRET="X4VZgaYkqMYU2HFchBoDCvyHPHywc3SqpCbtDGyUeYICZioggV"
-export ACCESS_TOKEN="2797213650-00l5b8uKHcQnN5ETieabGxUsyvN2afPAOxETejM"
-export ACCESS_TOKEN_SECRET="kwQt2CNpwyELoMTLU9mNivoNbNtb8PGDuXB9ubSRzhCRp"
-export PASSWORD="MyNewPass"
